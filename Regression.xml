@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking_Functional">
+	<test name="FlightBooking">
+	
+	<groups>
+	<run>
+	
+	<include name="Regression"></include>
+	</run>
+	</groups>
+		<classes>
+
+			<class name="Booking.BookFlight2"/>
+			<class name="Booking.BookHoliday" />
+			<class name="Booking.BookHotel"/>
+			<class name="Booking.Flightstatus" />
+
+		</classes>
+
+	</test>
+</suite>

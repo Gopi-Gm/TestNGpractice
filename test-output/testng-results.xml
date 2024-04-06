@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T23:08:41 IST" name="Booking_Functional" finished-at="2024-03-05T23:08:41 IST" duration-ms="49">
+    <groups>
+    </groups>
+    <test started-at="2024-03-05T23:08:41 IST" name="FlightBooking" finished-at="2024-03-05T23:08:41 IST" duration-ms="49">
+      <class name="Booking.pmt">
+        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Booking.pmt@60bd273d]" started-at="2024-03-05T23:08:41 IST" name="tc1" finished-at="2024-03-05T23:08:41 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- Booking.pmt -->
+    </test> <!-- FlightBooking -->
+  </suite> <!-- Booking_Functional -->
+</testng-results>

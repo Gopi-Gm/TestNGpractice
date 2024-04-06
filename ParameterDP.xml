@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking_Functional">
+    <test name="FlightBooking">
+        
+        <classes>
+            <class name="Booking.pmt"></class> <!-- Corrected class name -->
+        </classes>
+    </test>
+</suite>
